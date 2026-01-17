@@ -18,7 +18,7 @@ main img {
     height: auto;
     border: 1px solid #000;
     padding: 1rem;
-    box-shadow: #eee;
+    box-shadow: inset;
 }
 
 aside {
