@@ -21,7 +21,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 header,
@@ -34,12 +34,17 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: black;
     background-color: var(--secondary-color);
     text-align: center;
 }
 
-nav,
+nav {
+    margin: 16px;
+    padding: 8px;
+    color: var(--accent2-color)
+}
+
 p,
 section {
     margin: 16px;
