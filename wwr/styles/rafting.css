@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #E67E22;
-    --secondary-color: #8BAE66;
-    --accent1-color: #628141;
-    --accent2-color: #EBD5AB;
+    --primary-color: #33A1E0;
+    --secondary-color: #FFF9AF;
+    --accent1-color: #154D71;
+    --accent2-color: #1C6EA4;
     --heading-font: "times new roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 
@@ -34,7 +34,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     background-color: var(--accent2-color);
     text-align: center;
 }
@@ -72,7 +72,7 @@ h1 {
     color: rgb(245, 244, 242);
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     width: 100%;
