@@ -1,16 +1,16 @@
 :root {
-    --primary-color: #33A1E0;
-    --secondary-color: #FFF9AF;
-    --accent1-color: #154D71;
-    --accent2-color: #1C6EA4;
+    --primary-color: #154D71;
+    --secondary-color: #1C6EA4;
+    --accent1-color: #33A1E0;
+    --accent2-color: #FFF9AF;
     --heading-font: "times new roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--secondary-color)
+    background-color: var(--secondary-color);
+    color: var(--accent2-color)
 }
 
 * {
@@ -21,7 +21,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 header,
@@ -34,17 +34,23 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
-    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
     text-align: center;
 }
 
 nav,
 p,
-section,
-article {
+section {
     margin: 16px;
     padding: 8px;
+    color: var(--primary-color)
+}
+
+article p {
+    margin: 16px;
+    padding: 8px;
+    color: var(--accent2-color);
 }
 
 .socialmedia a {
@@ -78,7 +84,7 @@ h1 {
     width: 100%;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     color: white;
 
 }
