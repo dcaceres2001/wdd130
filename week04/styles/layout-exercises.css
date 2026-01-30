@@ -11,6 +11,7 @@ body {
 }
 
 div {
+
     margin: 1rem;
     border: 1px dashed;
     padding: 1rem;
@@ -23,17 +24,24 @@ div {
 
 .flex {
     background-color: #aba;
+    display: grid;
+    place-items: center;
     /* write declarations here */
 
 }
 
 .grid {
     background-color: #abb;
+    display: grid;
+    place-items: center;
     /* enter declarations here */
 
 }
 
 .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     /* write declarations here */
 
 }
@@ -44,11 +52,15 @@ div {
 }
 
 .container3 {
+    display: grid;
+    grid-template-columns: 1/4;
     /* write declarations here */
 
 }
 
 .columns-3 {
+    display: grid;
+    grid-column: 1/4;
     /* write declaration here */
 
 }
