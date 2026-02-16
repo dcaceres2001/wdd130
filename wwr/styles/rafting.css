@@ -94,6 +94,24 @@ article p {
     height: auto;
 }
 
+.hero-message {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    color: black;
+    text-align: center;
+
+}
+
+.hero-message p {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: x-large;
+    color: var(--accent2-color);
+    text-align: center;
+}
+
 h1 {
     position: absolute;
     top: 30px;
@@ -254,5 +272,61 @@ button {
 .test {
     display: flex;
     flex-wrap: wrap;
+
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.offerings img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.schedule-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.contact-us {
+    position: relative;
+
+}
+
+.contact-us a {
+    position: relative;
+}
+
+.trips-available {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.trips-available img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
 
 }
